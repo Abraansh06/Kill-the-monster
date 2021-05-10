@@ -64,6 +64,7 @@ function setup() {
 function draw() {
   background(bg);
   Engine.update(engine);
+  
   ground.display();
 
   box1.display();
